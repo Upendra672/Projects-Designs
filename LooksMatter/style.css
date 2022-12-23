@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Poppins";
+}
+
+#bg{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-image: url("bg.png");
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	z-index: -1;
+}
+
+#nav{
+	color: #f2f2f2;
+	width: 100%;
+	height: 64px;
+	position: relative;
+	padding: 16px 16px ;
+}
+
+#nav img{
+	float: right;
+	width: 32px;
+	height: 32px;
+	margin-left: 8px;
+}
+
+#logoContainer{
+	width: 100%;
+	height: auto;
+	padding: 64px 0;
+}
+
+.bold{
+	font-family: "Poppins ExtraBold";
+}
+
+#logo{
+	font-size: 72px;
+	color: #F2F2F2;
+	justify-content: center;
+}
+
+#logo img{
+	width: 72px;
+	height: 72px;
+}
+
+#slogan{
+	font-family: "Poppins Thin";
+    font-size: 36px;
+    color: #f2f2f2;
+}
+
+#aboutus{
+	width: 100%;
+	padding: 32px;
+	background: #f2f2f2c7;
+	color: #181818;
+    padding-bottom: 48px;
+}
+
+#patners{
+	color: #f2f2f2;
+	margin: 32px;
+}
+
+#patnersCont{
+	display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.patnerlogo{
+	font-size: 24px;
+	margin: 24px;
+}
+
+.patnerlogo img{
+    width: 96px;
+    height: 96px;
+    padding: 16px;
+}
+
+.service{
+	font-size: 24px;
+	margin: 24px;
+}
+
+.service img{
+    padding: 16px;
+    border-radius: 8px;
+}
+
+#vision{
+	color: #f2f2f2;
+	font-size: 20px;
+	backdrop-filter: blur(16px);
+	background: #fff1;
+	padding: 32px;
+	margin: 32px 0;
+}
+
+.footer{
+	width: 100%;
+	padding: 48px;
+	background: #f2f2f2c7;
+	color: #181818;
+	margin-top: 128px;
+	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+}
